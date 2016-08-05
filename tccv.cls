@@ -145,7 +145,7 @@
     \renewcommand\item[4][]{%
 	{\sc ##2} & {\bfseries ##3} \\
 	\ifstrempty{##1}{}{& {\sc ##1} \\}
-	& {\it ##4}\medskip\\}
+	& { ##4}\medskip\\}
     \tabularx{\linewidth}{rX}}
     {\endtabularx}
 
